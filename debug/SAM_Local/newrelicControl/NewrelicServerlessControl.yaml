@@ -13,6 +13,6 @@ Resources:
       Environment:
         Variables:
           ENVIRONMENT: 'mock'
-          RPM: 5
+          RPM: 20
           URI: ''
-          TIME_DOING_WORK: 300
+          TIME_DOING_WORK: 20
