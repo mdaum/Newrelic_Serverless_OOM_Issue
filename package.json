@@ -1,0 +1,47 @@
+{
+  "name": "newrelic-serverless-stress-test",
+  "version": "1.0.0",
+  "description": "Reproducible Env for NR Serverless Monitoring Issues",
+  "main": "routes.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext js,ts --cache --max-warnings 0",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdaum/Newrelic_Serverless_OOM_Issue"
+  },
+  "engines": {
+    "node": ">=10 <11"
+  },
+  "author": "Max Daum",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/mdaum/Newrelic_Serverless_OOM_Issue#readme",
+  "dependencies": {
+    "aws-sdk": "^2.500.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "newrelic": "^6.5.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.31",
+    "@types/lodash": "^4.14.136",
+    "@types/moment": "^2.13.0",
+    "@types/newrelic": "^6.4.0",
+    "@types/node": "^10.17.14",
+    "@types/request-promise": "^4.1.46",
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "@typescript-eslint/parser": "^2.8.0",
+    "eslint": "^6.6.0",
+    "pre-push": "^0.1.1",
+    "simplytyped": "^3.2.3",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.7.2"
+  },
+  "pre-push": [
+    "lint"
+  ]
+}

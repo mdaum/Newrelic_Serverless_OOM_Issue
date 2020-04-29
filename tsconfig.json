@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "strict": true,
+        "sourceMap": false,
+        "allowJs": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "noUnusedLocals": true,
+        "noEmitOnError": true,
+        "noUnusedParameters": true,
+        "lib": [
+          "es2016",
+          "es2017",
+          "dom"
+        ]
+    },
+    "include": [
+        "src"
+    ]
+}
