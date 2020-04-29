@@ -3,9 +3,9 @@ import * as moment from 'moment';
 
 function sleep(timeMs: number): Promise<void> {
   if(timeMs < 0) {
-  return Promise.resolve();
-}
-return new Promise((resolve) => setTimeout(resolve, timeMs));
+    return Promise.resolve();
+  }
+  return new Promise((resolve) => setTimeout(resolve, timeMs));
 }
 
 function makeRandomURISuffix(length: number): string {
