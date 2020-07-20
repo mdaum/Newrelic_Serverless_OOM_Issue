@@ -20,7 +20,7 @@
   "homepage": "https://github.com/mdaum/Newrelic_Serverless_OOM_Issue#readme",
   "dependencies": {
     "aws-sdk": "^2.500.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "newrelic": "^6.5.0",
     "request": "^2.88.2",
