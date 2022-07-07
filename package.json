@@ -21,7 +21,7 @@
   "dependencies": {
     "aws-sdk": "^2.500.0",
     "lodash": "^4.17.15",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "newrelic": "^6.5.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.5"
